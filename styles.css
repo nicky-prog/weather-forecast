@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(#1e3c72, #2a5298);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('background.jpg'); /* Optional background */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .weather-app {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    width: 350px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  }
+  
+  form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  #city-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #ffcc00;
+    color: #000;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .weather-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .weather-info {
+    text-align: left;
+  }
+  
+  .time {
+    font-size: 14px;
+    opacity: 0.7;
+  }
+  
+  .temperature {
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  .temp-range {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  .location {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .description {
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 4px;
+  }
+  
+  .weather-icon img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .forecast {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+  }
+  
+  .day {
+    text-align: center;
+  }
+  
+  .high {
+    font-weight: bold;
+  }
+  
+  .low {
+    opacity: 0.6;
+  }
+  

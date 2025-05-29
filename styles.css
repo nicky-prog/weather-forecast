@@ -17,7 +17,7 @@ body {
     padding: 20px;
     border-radius: 15px;
     text-align: center;
-    width: 350px;
+    width: 550px;
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
 
     /* New background styling */
@@ -43,7 +43,7 @@ body {
   
   button {
     padding: 10px 15px;
-    background-color: #ffcc00;
+    background-color: #eb3fd1;
     color: #000;
     border: none;
     border-radius: 0 5px 5px 0;
@@ -109,5 +109,25 @@ body {
   
   .low {
     opacity: 0.6;
+  }
+  .footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    text-align: center;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.6;
+  }
+  
+  .footer a {
+    color: #f342d5; /* gold tone for links */
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+    color: #5663f5; /* brighten on hover */
   }
   

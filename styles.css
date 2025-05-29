@@ -7,7 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('background.jpg'); /* Optional background */
+    background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/166/872/original/download.jpg?1748514603'); /* Optional background */
     background-size: cover;
     background-position: center;
   }
@@ -19,6 +19,13 @@ body {
     text-align: center;
     width: 350px;
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
+
+    /* New background styling */
+  background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/166/871/original/images.jpg?1748514587'); /* Adjust the path if needed */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
   }
   
   form {
